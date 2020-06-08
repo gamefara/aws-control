@@ -1,4 +1,4 @@
 #!/bin/sh
 
 . ./.env
-ssh ${BLOG_IP} -i ~/.ssh/wordpress_admin.pem
+ssh ec2-user@${BLOG_IP} -i ~/.ssh/release_story.pem
